@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03142c330ced64e0ab46cddcd0484ab7, type: 3}
+  m_Name: Rules
+  m_EditorClassIdentifier: 
+  searchPatternAsset: '*.asset'
+  searchPatternController: '*.controller'
+  searchPatternDir: '*'
+  searchPatternMaterial: '*.mat'
+  searchPatternPng: '*.png'
+  searchPatternPrefab: '*.prefab'
+  searchPatternScene: '*.unity'
+  searchPatternText: '*.txt,*.bytes,*.json,*.csv,*.xml,*htm,*.html,*.yaml,*.fnt'
+  version: 5
+  scenesInBuild:
+  - {fileID: 102900000, guid: 41515a2b3f98a445e88e746ac77f43d1, type: 3}
+  - {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+  - {fileID: 102900000, guid: c9d3b53eeb5e141e38188c538ac51a6c, type: 3}
+  rules:
+  - searchPath: Assets/Asset/Prefabs
+    searchPattern: '*'
+    nameBy: 2
+    assetBundleName: 
+  - searchPath: Assets/Asset/Scenes
+    searchPattern: '*.unity'
+    nameBy: 1
+    assetBundleName: 
+  ruleAssets:
+  - bundle: 78ff72e5847487633d6c23a2a6858816.unity3d
+    path: Assets/Asset/Prefabs/LipSyncDebugConsole.prefab
+  - bundle: 78ff72e5847487633d6c23a2a6858816.unity3d
+    path: Assets/Asset/Prefabs/LipSyncInterface.prefab
+  - bundle: 78ff72e5847487633d6c23a2a6858816.unity3d
+    path: Assets/Asset/Prefabs/LipSyncMorphTarget_Female.prefab
+  - bundle: 78ff72e5847487633d6c23a2a6858816.unity3d
+    path: Assets/Asset/Prefabs/LipSyncTextureFlipTarget_Robot.prefab
+  - bundle: 78ff72e5847487633d6c23a2a6858816.unity3d
+    path: Assets/Asset/Prefabs/Modle1.prefab
+  - bundle: 89ade96792eb9594815259b8823babb1.unity3d
+    path: Assets/Asset/Scenes/Init.unity
+  - bundle: 4e398650173dc3c61d92fecf24d35440.unity3d
+    path: Assets/Asset/Scenes/Record.unity
+  - bundle: ce6cecead15f154806681b63a0682bd1.unity3d
+    path: Assets/Asset/Scenes/Select.unity
+  ruleBundles:
+  - name: 78ff72e5847487633d6c23a2a6858816.unity3d
+    assets:
+    - Assets/Asset/Prefabs/LipSyncDebugConsole.prefab
+    - Assets/Asset/Prefabs/LipSyncInterface.prefab
+    - Assets/Asset/Prefabs/LipSyncMorphTarget_Female.prefab
+    - Assets/Asset/Prefabs/LipSyncTextureFlipTarget_Robot.prefab
+    - Assets/Asset/Prefabs/Modle1.prefab
+  - name: 89ade96792eb9594815259b8823babb1.unity3d
+    assets:
+    - Assets/Asset/Scenes/Init.unity
+  - name: 4e398650173dc3c61d92fecf24d35440.unity3d
+    assets:
+    - Assets/Asset/Scenes/Record.unity
+  - name: ce6cecead15f154806681b63a0682bd1.unity3d
+    assets:
+    - Assets/Asset/Scenes/Select.unity
